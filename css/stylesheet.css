@@ -1,0 +1,73 @@
+@charset "utf-8";
+/*********************************************
+	Code by Cameron Cabo, all rights reserved
+
+	STYLESHEET
+*********************************************/
+
+body {
+	background: #FFF7F0;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+header {
+	background: white;
+	padding: 1.25vh 2.5vw;
+	border-bottom: 1px solid #F1EBE5;
+}
+
+header h2, footer h {
+	color: #597ABD;
+}
+
+.wrapper {
+	padding: 10vh;
+	width: 100%;
+}
+
+.board {
+	background-color: #F1EBE5;
+	height: 60vh;
+	width: 70vh;
+	margin: auto;
+	border: 1px solid #F1EBE5;
+	padding: .5%;
+}
+
+.slot {
+	height: 100%;
+	width: 14.2857%;
+	float: left;
+	background: #F1EBE5;
+}
+
+.box-wrapper {
+	height: 16.666%;
+	width: 100%;
+	border-radius: 100%;
+	padding: 10%;
+}
+
+.box {
+	height: 100%;
+	width: 100%;
+	background: #FFF7F0;
+	border-radius: 100%;
+}
+
+.player1 {
+	background: #FFE05C;
+}
+
+.player2 {
+	background: #FF523D;
+}
+
+footer {
+	text-align: center;
+	padding-bottom: 2.5vh;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
