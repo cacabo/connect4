@@ -8,3 +8,4 @@ Features to add:
   -  Keeping track of state of the board through arrays
   -  Basic computer AI
   -  Algorithms to determine chip placement & game state
+  -  Ability to reset without refreshing
